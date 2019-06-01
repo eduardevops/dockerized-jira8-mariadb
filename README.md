@@ -15,10 +15,8 @@
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
 ## Versions
-*	PHP v5.6.40
-*	Apache v2.4.25
-*	MySQL v5.7.26
-*	Redis v5.0.5
+*	JIRA v8.2.1
+*	MariaDB v10.3.15
 ------
 
 ## Content
