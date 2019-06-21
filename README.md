@@ -18,7 +18,7 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 *	JIRA v8.2.2
 *	MariaDB v10.3.16
 ------
-## Description
+## NGINX
 Depending on your server sepcs JIRA configuration (and its work in general) can be very slow, which can cause nginx o stop working with error 504. To avoid this you may want to use one of 3 options.
 
 1.  Add proxy times to your nginx.conf file.
