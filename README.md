@@ -22,7 +22,7 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 Depending on your server sepcs JIRA configuration (and its work in general) can be very slow, which can cause nginx to stop working with error 504. To avoid this add proxy timeout settings to your nginx.conf or increase value of proxy_read_timeout in your reverse proxy setting
 
 #### nginx.conf
-
+------
     ```javascript
       proxy_connect_timeout       600;
       proxy_send_timeout          600;
