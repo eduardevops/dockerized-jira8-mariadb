@@ -22,7 +22,7 @@ services:
       - jira-db
   jira-db:
     restart: always
-    image: mariadb:10.4
+    image: mariadb:10.3
     container_name: jira-db
     # ports:
     #  - 3306:3306
