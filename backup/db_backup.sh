@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Cron jobs
+# * * * * *    /bin/bash jira8.2-mariadb/backup/db_backup.sh >> /var/log/db_backup-cron.log
+# # If you do not have a clear understanding how to configure date in crontab or you just feel too lazy to do so, use https://crontab.guru
+# Very useful project
+
 # Getting current date
 now=$(date +"%d-%b-%Y")
 
