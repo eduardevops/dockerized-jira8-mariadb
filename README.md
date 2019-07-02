@@ -2,7 +2,6 @@
 ------
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/jira8.2.svg" style="max-width:100%;"> <img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/jira8.2.svg?style=plastic" style="max-width:100%;">
 
-
 ------
 
 ![Logo](lg.png)
@@ -24,7 +23,7 @@ Depending on your server sepcs JIRA configuration (and its work in general) can 
 
 #### nginx.conf
 
-```javascript
+```bash
   proxy_connect_timeout       600;
   proxy_send_timeout          600;
   proxy_read_timeout          600;
