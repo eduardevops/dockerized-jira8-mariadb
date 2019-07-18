@@ -41,7 +41,7 @@ Depending on your server sepcs JIRA configuration (and its work in general) can 
 
 ### Description
 
-Name| Type | Description
+Name | Description
 ------------------- | -------------
 Dockerfile          | As it says, Dockerfile from which image will be build
 docker-compose.yml  | Main file of the project that builds and links containers
