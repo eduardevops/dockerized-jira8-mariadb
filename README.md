@@ -4,7 +4,7 @@
 
 ------
 
-![Logo](logo.jpg)
+![Logo](./assets/logo.jpg)
 ------
 
 # INFO!!!
@@ -30,13 +30,23 @@ Depending on your server sepcs JIRA configuration (and its work in general) can 
   send_timeout                600;
 ```
 
+-----
 ## Content
+
+### Tree
+
+```bash
+
+```
+
+### Description
+
 Name| Type | Description
-------------        |         ------------- |         -------------
-Dockerfile          | File | As it says, Dockerfile from which image will be build
-docker-compose.yml  | File | Main file of the project that builds and links containers
-web                 | Folder | Web folder where you need to copy your web project
-.env.db             | File| This file will contain your database root password as well as new database name with its owner user and password
-.env.redis          | File | Redis container environments
-lg.png              | File | This repo's logo. Will be removed soon
+------------------- | -------------
+Dockerfile          | As it says, Dockerfile from which image will be build
+docker-compose.yml  | Main file of the project that builds and links containers
+web                 | Web folder where you need to copy your web project
+.env.db             | This file will contain your database root password as well as new database name with its owner user and password
+.env.redis          | Redis container environments
+
 ------
