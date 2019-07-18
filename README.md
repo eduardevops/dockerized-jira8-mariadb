@@ -1,9 +1,9 @@
 <!-- ## Dockerized JIRA v8.2 and MariaDB v10.4 -->
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/jira8.2.svg" style="max-width:100%;"> <img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/jira8.2.svg?style=plastic" style="max-width:100%;">
 -----
-Solarized dark             |  Solarized Ocean
+Logo             |  Linux
 :-------------------------:|:-------------------------:
-![Logo](./assets/logo.jpg)  | ![Linux](./assets/linux.jpg)
+![Logo](./assets/logo.jpg)  | ![Linux](./assets/Linux.png)
 
 <!-- ![Logo](./assets/logo.jpg) -->
 ------
