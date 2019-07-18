@@ -59,11 +59,11 @@ Depending on your server sepcs JIRA configuration (and its work in general) can 
 
 Name | Description
 ------------------- | -------------
+.env.db             | MySQL Database root password. As well as new Database user and password
+.env.jira           | Jira container environments
 Dockerfile          | As it says, Dockerfile from which image will be build
 docker-compose.yml  | Main file of the project that builds and links containers
-web                 | Web folder where you need to copy your web project
-.env.db             | MySQL Database root password. As well as new Database user and password
-.env.redis          | Redis container environments
+
 
 ------
 
