@@ -66,3 +66,41 @@ web                 | Web folder where you need to copy your web project
 .env.redis          | Redis container environments
 
 ------
+
+-----
+#### ToDo
+All names and parameters can be, and in most cases should be edited.
+
+
+#### Run
+Clone repo to your server (I would suggest use /opt directory)
+```bash
+sudo git clone https://github.com/eduardevops/dockerized-jira8.2-mariadb.git
+```
+
+Make sure your user is a member of Docker group
+```sh
+usermod -aG docker <username>
+```
+Navigate to the project folder
+```sh
+cd /path/to/dockerized-jira8.2-mariadb
+```
+Change permission for ```sh 'docker-entrypoint.sh' ``` file and start containers
+```sh
+chmod 665 docker-entrypoint.sh
+docker-compose up -d
+```
+
+#### Animation
+![Animation](./assets/docker-compose-up.gif)
+
+------
+Check logs in real-time
+```sh
+docker-compose logs -f
+```
+
+#### Animation
+![Animation](./assets/docker-compose-logs.gif)
+-----
