@@ -36,7 +36,23 @@ Depending on your server sepcs JIRA configuration (and its work in general) can 
 ### Tree
 
 ```bash
-
+.
+├── .env.db
+├── .env.jira
+├── Dockerfile
+├── assets
+│   └── logo.jpg
+├── backup
+│   ├── db_backup.sh
+│   ├── db_restore.sh
+│   └── jira_backup.sh
+├── conf
+│   ├── apache-reverse-proxy.conf
+│   ├── httpd.conf
+│   └── nginx-reverse-proxy.conf
+├── docker-compose-alter.yml
+├── docker-compose.yml
+└── docker-entrypoint.sh
 ```
 
 ### Description
