@@ -30,7 +30,7 @@ Depending on your server sepcs JIRA configuration (and its work in general) can 
   send_timeout                600;
 ```
 
------
+------
 ## Content
 
 ### Tree
