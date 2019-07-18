@@ -3,7 +3,7 @@
 -----
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![Logo](./assets/logo.jpg)  | ![Logo](./assets/linux.jpg)
+![Logo](./assets/logo.jpg)  | ![Linux](./assets/linux.jpg)
 
 <!-- ![Logo](./assets/logo.jpg) -->
 ------
