@@ -3,7 +3,7 @@
 -----
 Logo             |  Linux
 :-------------------------:|:-------------------------:
-![Logo](./assets/logo.jpg)  | ![Linux](./assets/Linux.png)
+![Logo](./assets/logo.jpg)  | ![Linux](./assets/unix.jpg)
 
 <!-- ![Logo](./assets/logo.jpg) -->
 ------
