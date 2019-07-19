@@ -3,9 +3,16 @@
 -----
 
 
-```html
-//<font color="red">This is some text!</font>
+```json
+   // code for coloring
 ```
+```html
+   // code for coloring
+```
+```js
+   // code for coloring
+```
+
 
 ![Logo](./assets/logo.jpg)
 ------
