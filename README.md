@@ -2,9 +2,22 @@
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/jira8.2.svg" style="max-width:100%;"> <img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/jira8.2.svg?style=plastic" style="max-width:100%;">
 -----
 
-```html
-<font color="red">This is some text!</font>
-```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
 
 ![Logo](./assets/logo.jpg)
 ------
