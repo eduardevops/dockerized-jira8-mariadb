@@ -8,6 +8,10 @@
 # INFO!!!
 ####  Still working on this. All necessary comments will be provided at the very end
 ####  Don't use this
+
+This is a work of  ![This Project](https://github.com/cptactionhank/docker-atlassian-jira)
+![Martin Aksel Jensen](https://github.com/cptactionhank) did a great job 
+
 ------
 ## First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
