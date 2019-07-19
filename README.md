@@ -12,7 +12,7 @@
 ```js
    // code for coloring
 ```
-
+<span style="color:red;">Word up</span>
 
 ![Logo](./assets/logo.jpg)
 ------
