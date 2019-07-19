@@ -4,7 +4,7 @@
 
 
 ```html
-<font color="#F781F3"> any text </font>
+//#F781F3 any text 
 - highlighted in blue
 ```
 
