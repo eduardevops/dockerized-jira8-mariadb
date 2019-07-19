@@ -3,16 +3,8 @@
 -----
 
 
-```json
-   // code for coloring
-```
-```html
-   // code for coloring
-```
-```js
-   // code for coloring
-```
-<span style="color:red;">Word up</span>
+<font color="red">This is some text!</font>
+
 
 ![Logo](./assets/logo.jpg)
 ------
