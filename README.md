@@ -4,8 +4,7 @@
 
 
 ```html
-//#F781F3 any text 
-- highlighted in blue
+//<font color="red">This is some text!</font>
 ```
 
 ![Logo](./assets/logo.jpg)
