@@ -92,9 +92,9 @@ Navigate to the project folder
 ```sh
 cd /path/to/dockerized-jira8.2-mariadb
 ```
-Change permission for ```bash docker-entrypoint.sh ``` file and start containers
+Make ```bash docker-entrypoint.sh ``` file executable for others and run the composer
 ```sh
-chmod 665 docker-entrypoint.sh
+chmod o+x docker-entrypoint.sh
 docker-compose up -d
 ```
 
