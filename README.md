@@ -19,7 +19,7 @@ This is a work of  ![This Project](https://github.com/cptactionhank/docker-atlas
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
 ## Versions
-*	JIRA v8.2.4
+*	JIRA v8.3.0
 *	MariaDB v10.4.6
 
 -----
