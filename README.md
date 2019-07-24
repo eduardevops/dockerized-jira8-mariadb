@@ -81,7 +81,7 @@ All names and parameters can be, and in most cases should be edited.
 #### Run
 Clone repo to your server (I would suggest use /opt directory)
 ```bash
-sudo git clone https://github.com/eduardevops/dockerized-jira8.2-mariadb.git
+sudo git clone https://github.com/eduardevops/dockerized-jira8.3-mariadb.git
 ```
 
 Make sure your user is a member of Docker group
@@ -90,7 +90,7 @@ usermod -aG docker <username>
 ```
 Navigate to the project folder
 ```sh
-cd /path/to/dockerized-jira8.2-mariadb
+cd /path/to/dockerized-jira8.3-mariadb
 ```
 Make ```bash docker-entrypoint.sh ``` file executable for others and run the composer
 ```sh
