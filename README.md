@@ -101,15 +101,9 @@ chmod o+x docker-entrypoint.sh
 docker-compose up -d
 ```
 
-#### Animation
-![Animation](./assets/docker-compose-up.gif)
 
 ------
 Check logs in real-time
 ```sh
 docker-compose logs -f
 ```
-
-#### Animation
-![Animation](./assets/docker-compose-logs.gif)
------
