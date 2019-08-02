@@ -22,7 +22,6 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 #### Content Tree
 
 ```less
-.
 ├── .env.db
 ├── .env.jira
 ├── Dockerfile
