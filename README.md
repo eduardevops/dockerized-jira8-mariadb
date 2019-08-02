@@ -5,7 +5,6 @@
 ------
 
 This is a fork of  ![This Project](https://github.com/cptactionhank/docker-atlassian-jira) <br>
-If you want to use JIRA with PostgreSQL, you may want to use his project <br>
 ![Martin Aksel Jensen](https://github.com/cptactionhank) did a great job.
 
 If you want to use JIRA with MySQL use the following project. <br>
@@ -60,26 +59,26 @@ All names and parameters can be, and in most cases should be edited.
 
 #### Run
 Clone repo to your server (I would suggest use /opt directory)
-```css
+```less
 sudo git clone https://github.com/eduardevops/dockerized-jira8.3-mariadb.git
 ```
 
 Make sure your user is a member of Docker group
-```css
+```less
 usermod -aG docker <username>
 ```
 Navigate to the project folder
-```css
+```less
 cd /path/to/dockerized-jira8.3-mariadb
 ```
 Make docker-entrypoint.sh file executable for other and run the composer
 
-```css
+```less
 chmod o+x docker-entrypoint.sh
 docker-compose up -d
 ```
 
 Check logs in real-time
-```css
+```less
 docker-compose logs -f
 ```
