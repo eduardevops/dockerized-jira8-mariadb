@@ -5,10 +5,6 @@
 ![Logo](./assets/logo.jpg)
 ------
 
-# INFO!!!
-####  Still working on this. All necessary comments will be provided at the very end
-####  Don't use this
-
 This is a fork of  ![This Project](https://github.com/cptactionhank/docker-atlassian-jira) <br>
 If you want to use JIRA with PostgreSQL, you may want to use his project <br>
 ![Martin Aksel Jensen](https://github.com/cptactionhank) did a great job.
@@ -25,18 +21,17 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 *	MariaDB v10.4.6
 
 -----
-## NGINX
+### NGINX
 Depending on your server sepcs JIRA configuration (and its work in general) can be very slow, which can cause nginx to stop working with error 504. To avoid this add proxy timeout settings to your nginx.conf or increase value of proxy_read_timeout in your reverse proxy setting
 
 ### NGINX Timeout
 
-```bash
+```less
   proxy_connect_timeout       600;
   proxy_send_timeout          600;
   proxy_read_timeout          600;
   send_timeout                600;
 ```
------
 
 ------
 ## Content
