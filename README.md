@@ -2,7 +2,6 @@
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/jira8.3-mariadb.svg" style="max-width:100%;"> <img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/jira8.3-mariadb/latest.svg" style="max-width:100%;">
 -----
 
-
 ![Logo](./assets/logo.jpg)
 ------
 
@@ -29,7 +28,7 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 ## NGINX
 Depending on your server sepcs JIRA configuration (and its work in general) can be very slow, which can cause nginx to stop working with error 504. To avoid this add proxy timeout settings to your nginx.conf or increase value of proxy_read_timeout in your reverse proxy setting
 
-#### nginx.conf
+### NGINX Timeout
 
 ```bash
   proxy_connect_timeout       600;
@@ -44,7 +43,7 @@ Depending on your server sepcs JIRA configuration (and its work in general) can 
 
 ### Tree
 
-```bash
+```less
 .
 ├── .env.db
 ├── .env.jira
@@ -64,46 +63,32 @@ Depending on your server sepcs JIRA configuration (and its work in general) can 
 └── docker-entrypoint.sh
 ```
 
-### Description
-
-Name | Description
-------------------- | -------------
-.env.db             | MySQL Database root password. As well as new Database user and password
-.env.jira           | Jira container environments
-Dockerfile          | As it says, Dockerfile from which image will be build
-docker-compose.yml  | Main file of the project that builds and links containers
-
-
-------
-
 -----
-#### ToDo
+### ToDo
 All names and parameters can be, and in most cases should be edited.
 
 
-#### Run
+### Run
 Clone repo to your server (I would suggest use /opt directory)
-```bash
+```less
 sudo git clone https://github.com/eduardevops/dockerized-jira8.3-mariadb.git
 ```
 
 Make sure your user is a member of Docker group
-```sh
+```less
 usermod -aG docker <username>
 ```
 Navigate to the project folder
-```sh
+```less
 cd /path/to/dockerized-jira8.3-mariadb
 ```
 Make ```bash docker-entrypoint.sh ``` file executable for others and run the composer
-```sh
+```css
 chmod o+x docker-entrypoint.sh
 docker-compose up -d
 ```
 
-
-------
 Check logs in real-time
-```sh
+```css
 docker-compose logs -f
 ```
