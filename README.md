@@ -13,30 +13,14 @@ If you want to use JIRA with MariaDB use the following project. <br>
 ![JIRA with MySQL](https://github.com/eduardevops/dockerized-jira8.3-mysql)
 
 ------
-## First things first
+### First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
-## Versions
+### Versions
 *	JIRA v8.3.0
 *	MariaDB v10.4.6
 
------
-### NGINX
-Depending on your server sepcs JIRA configuration (and its work in general) can be very slow, which can cause nginx to stop working with error 504. To avoid this add proxy timeout settings to your nginx.conf or increase value of proxy_read_timeout in your reverse proxy setting
-
-### NGINX Timeout
-
-```less
-  proxy_connect_timeout       600;
-  proxy_send_timeout          600;
-  proxy_read_timeout          600;
-  send_timeout                600;
-```
-
-------
-## Content
-
-### Tree
+### Content Tree
 
 ```less
 .
@@ -59,6 +43,20 @@ Depending on your server sepcs JIRA configuration (and its work in general) can 
 ```
 
 -----
+### NGINX
+Depending on your server sepcs JIRA configuration (and its work in general) can be very slow, which can cause nginx to stop working with error 504. To avoid this add proxy timeout settings to your nginx.conf or increase value of proxy_read_timeout in your reverse proxy setting
+
+### NGINX Timeout
+
+```less
+  proxy_connect_timeout       600;
+  proxy_send_timeout          600;
+  proxy_read_timeout          600;
+  send_timeout                600;
+```
+
+------
+
 ### ToDo
 All names and parameters can be, and in most cases should be edited.
 
