@@ -16,8 +16,8 @@ If you want to use JIRA with MariaDB use the following project. <br>
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
 #### Versions
-*	JIRA v8.3.0
-*	MariaDB v10.4.6
+*	JIRA v8.3.1
+*	MariaDB v10.4.7
 
 #### Content Tree
 
