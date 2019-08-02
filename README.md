@@ -1,7 +1,6 @@
 <!-- ## Dockerized JIRA v8.3 and MariaDB v10.4 -->
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/jira8.3-mariadb.svg" style="max-width:100%;"> <img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/jira8.3-mariadb/latest.svg" style="max-width:100%;">
 -----
-
 ![Logo](./assets/logo.jpg)
 ------
 
@@ -13,14 +12,14 @@ If you want to use JIRA with MariaDB use the following project. <br>
 ![JIRA with MySQL](https://github.com/eduardevops/dockerized-jira8.3-mysql)
 
 ------
-### First things first
+#### First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
-### Versions
+#### Versions
 *	JIRA v8.3.0
 *	MariaDB v10.4.6
 
-### Content Tree
+#### Content Tree
 
 ```less
 .
@@ -43,7 +42,7 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 ```
 
 -----
-### NGINX
+#### NGINX
 Depending on your server sepcs JIRA configuration (and its work in general) can be very slow, which can cause nginx to stop working with error 504. To avoid this add proxy timeout settings to your nginx.conf or increase value of proxy_read_timeout in your reverse proxy setting. You can add below lines
 into /etc/nginx/nginx.conf
 
@@ -56,12 +55,11 @@ into /etc/nginx/nginx.conf
   send_timeout                600;
 ```
 
-
-### ToDo
+#### ToDo
 All names and parameters can be, and in most cases should be edited.
 
 
-### Run
+#### Run
 Clone repo to your server (I would suggest use /opt directory)
 ```css
 sudo git clone https://github.com/eduardevops/dockerized-jira8.3-mariadb.git
@@ -75,7 +73,7 @@ Navigate to the project folder
 ```css
 cd /path/to/dockerized-jira8.3-mariadb
 ```
-Make  'docker-entrypoint.sh' file executable for others and run the composer
+Make docker-entrypoint.sh file executable for other and run the composer
 
 ```css
 chmod o+x docker-entrypoint.sh
