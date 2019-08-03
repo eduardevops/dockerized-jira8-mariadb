@@ -2,7 +2,7 @@
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/jira8.3-mariadb.svg" style="max-width:100%;"> <img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/jira8.3-mariadb/latest.svg" style="max-width:100%;">
 -----
 ![Logo](./assets/logo.jpg)
-------
+-----
 
 This is a fork of  ![This Project](https://github.com/cptactionhank/docker-atlassian-jira) <br>
 ![Martin Aksel Jensen](https://github.com/cptactionhank) did a great job.
