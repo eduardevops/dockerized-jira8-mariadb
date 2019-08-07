@@ -63,16 +63,12 @@ Clone repo to your server (I would suggest use /opt directory)
 sudo git clone https://github.com/eduardevops/dockerized-jira8.3-mariadb.git
 ```
 
-Make sure your user is a member of Docker group
-```less
-usermod -aG docker <username>
-```
 Navigate to the project folder
 ```less
 cd /path/to/dockerized-jira8.3-mariadb
 ```
-Make docker-entrypoint.sh file executable for other and run the composer
 
+Make docker-entrypoint.sh file executable for other and run the composer
 ```less
 chmod o+x docker-entrypoint.sh
 docker-compose up -d
