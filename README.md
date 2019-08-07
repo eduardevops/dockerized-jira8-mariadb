@@ -18,6 +18,13 @@ If you want to use JIRA with MySQL use the following project. <br>
 #### First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
+#### ToDo
+All names and parameters can be, and in most cases should be edited.
+
+#### Timeout
+Depending on your server sepcs JIRA configuration (and its work in general) can be very slow, which can cause timeout issue with your web server or even with JIRA without reverse proxy (e.g. error 504, nginx).
+To avoid it make sure to increase timeout settings in your webserver
+-----
 #### Content Tree
 
 ```less
@@ -38,26 +45,8 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 ├── docker-compose.yml
 └── docker-entrypoint.sh
 ```
------
 
-#### NGINX
-Depending on your server sepcs JIRA configuration (and its work in general) can be very slow, which can cause nginx to stop working with error 504. To avoid this add proxy timeout settings to your nginx.conf or increase value of proxy_read_timeout in your reverse proxy setting. You can add below lines
-into /etc/nginx/nginx.conf
-
-#### NGINX Timeout
-
-```less
-  proxy_connect_timeout       600;
-  proxy_send_timeout          600;
-  proxy_read_timeout          600;
-  send_timeout                600;
-```
-
-#### ToDo
-All names and parameters can be, and in most cases should be edited.
-
-
-#### Run
+#### HowTo
 Clone repo to your server (I would suggest use /opt directory)
 ```less
 sudo git clone https://github.com/eduardevops/dockerized-jira8.3-mariadb.git
