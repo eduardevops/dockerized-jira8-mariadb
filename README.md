@@ -11,7 +11,7 @@ If you want to use JIRA with MySQL use the following project. <br>
 ![JIRA with MySQL](https://github.com/eduardevops/dockerized-jira8.3-mysql)
 
 #### Versions
-*	JIRA v8.3.1
+*	JIRA v8.3.2
 *	MariaDB v10.4.7
 
 ------
