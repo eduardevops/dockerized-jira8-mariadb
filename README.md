@@ -46,6 +46,7 @@ To avoid it make sure to increase timeout settings in your webserver.
 ├── docker-compose.yml
 └── docker-entrypoint.sh
 ```
+----
 
 #### HowTo
 Clone repo to your server (I would suggest use /opt directory)
@@ -69,5 +70,6 @@ Check logs in real-time
 docker-compose logs -f
 ```
 
+----
 # Contact
 As the description is not complete yet, it may be confusing. So in case of any questions you may write to me <eduard.saryan@protonmail.com>
