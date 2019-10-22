@@ -51,12 +51,12 @@ To avoid it make sure to increase timeout settings in your webserver.
 #### HowTo
 Clone repo to your server (I would suggest use /opt directory)
 ```less
-sudo git clone https://github.com/eduardevops/dockerized-jira8.4-mariadb.git
+sudo git clone https://github.com/eduardevops/dockerized-jira8-mariadb.git
 ```
 
 Navigate to the project folder
 ```less
-cd /path/to/dockerized-jira8.3-mariadb
+cd /path/to/dockerized-jira8-mariadb
 ```
 
 Make docker-entrypoint.sh file executable for other and run the composer
