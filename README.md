@@ -7,7 +7,7 @@
 This is a fork of  ![This Project](https://github.com/cptactionhank/docker-atlassian-jira) <br>
 If you want to use JIRA with PostgreSQL, you may want to use his project.
 
-If you want to use JIRA with MySQL use the following project. <br>
+For JIRA with MySQL use the following project. <br>
 ![JIRA with MySQL](https://github.com/eduardevops/dockerized-jira8-mysql)
 
 #### Versions
