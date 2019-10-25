@@ -26,7 +26,7 @@ Depending on your server sepcs JIRA configuration (and its work in general) can 
 To avoid it make sure to increase timeout settings in your webserver.
 
 -----
-#### Content Tree
+#### Project Tree
 
 ```less
 ├── .env.db
