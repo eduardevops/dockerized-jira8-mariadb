@@ -4,7 +4,7 @@
 ![Logo](./assets/logo.jpg)
 -----
 
-This is a fork of ![Martin Aksel Jensen's](https://github.com/cptactionhank) ![docker-atlassian-jira](https://github.com/cptactionhank/docker-atlassian-jira) project <br>
+This is a fork of ![Martin Aksel Jensen's](https://github.com/cptactionhank) project ![docker-atlassian-jira](https://github.com/cptactionhank/docker-atlassian-jira)  <br>
 You may want to use his project if you prefer PostgreSQL.
 
 
