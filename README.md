@@ -4,8 +4,9 @@
 ![Logo](./assets/logo.jpg)
 -----
 
-This is a fork of  ![This Project](https://github.com/cptactionhank/docker-atlassian-jira) <br>
-For JIRA with PostgreSQL, please use ![Martin Aksel Jensen's](https://github.com/cptactionhank) project.
+This is a fork of ![Martin Aksel Jensen's](https://github.com/cptactionhank) ![docker-atlassian-jira](https://github.com/cptactionhank/docker-atlassian-jira) <br>
+You may want to use his project if you prefer PostgreSQL.
+
 
 For JIRA with MySQL use the following project. <br>
 ![JIRA with MySQL](https://github.com/eduardevops/dockerized-jira8-mysql)
