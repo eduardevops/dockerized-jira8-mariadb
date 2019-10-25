@@ -19,7 +19,7 @@ For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
 #### ToDo
-All names and parameters can be, and in most cases should be edited.
+All names can be, and, in most cases, should be changed.
 
 #### Timeout
 Depending on your server sepcs JIRA configuration (and its work in general) can be very slow, which can cause timeout issue with your web server or even with JIRA without reverse proxy (e.g. error 504, nginx).
