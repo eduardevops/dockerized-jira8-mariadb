@@ -8,8 +8,7 @@ This is a fork of ![Martin Aksel Jensen's](https://github.com/cptactionhank) pro
 You may want to use his project if you prefer PostgreSQL.
 
 
-For JIRA with MySQL use the following project. <br>
-![JIRA with MySQL](https://github.com/eduardevops/dockerized-jira8-mysql)
+For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.com/eduardevops/dockerized-jira8-mysql)
 
 #### Versions
 *	JIRA v8.5.0
