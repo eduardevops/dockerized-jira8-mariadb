@@ -1,8 +1,8 @@
-### Run JIRA with MariaDB inside Docker container
+## Run JIRA with MariaDB inside Docker container
 
 ![Logo](./assets/logo.jpg)
 
-### Status
+#### Status
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/jira8-mariadb" style="max-width:100%;"> <!-- <img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/jira8-mariadb/latest.svg"  style="max-width:100%;"> --> <a href="https://www.gnu.org/licenses/gpl-3.0/"> <img alt="Licenses" src="https://img.shields.io/badge/License-GPLv3-blue.svg" style="max-width:100%;"> </a>
 <img alt="Build Status" src="https://img.shields.io/docker/cloud/build/eduardevops/jira8-mariadb" style="max-width:100%;">
 
@@ -14,7 +14,6 @@
 * [Timeout](#Timeout)
 * [HowTo](#HowTo)
 
-### Fork
 This is a fork of ![Martin Aksel Jensen's](https://github.com/cptactionhank) project ![docker-atlassian-jira](https://github.com/cptactionhank/docker-atlassian-jira)  <br>
 You may use his project if you prefer PostgreSQL.
 For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.com/eduardevops/dockerized-jira8-mysql)
@@ -23,7 +22,7 @@ For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.
 *	JIRA v8.5.0
 *	MariaDB v10.4.8
 
-### Build With
+#### Build With
 *	[Docker](https://www.docker.com/)
 *	[Docker Compose](https://docs.docker.com/compose/install/)
 ------
