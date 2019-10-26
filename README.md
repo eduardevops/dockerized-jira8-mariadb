@@ -71,7 +71,7 @@ Navigate to the project folder
 cd /path/to/dockerized-jira8-mariadb
 ```
 
-Make docker-entrypoint.sh file executable for other and run the composer
+Make docker-entrypoint.sh file executable for ```other``` and run the composer
 ```less
 chmod o+x docker-entrypoint.sh
 docker-compose up -d
