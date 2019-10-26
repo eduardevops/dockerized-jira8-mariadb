@@ -49,7 +49,7 @@ For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.
 └── docker-entrypoint.sh
 ```
 
-### Config Folder
+#### Config Folder
 | File                        | Description                                                                                   |
 | :-------------------------- |:--------------------------------------------------------------------------------------------- |
 | apache-reverse-proxy.conf   | Basic reverse proxy config file for apache (With Letsencrypt certificates)                    |
