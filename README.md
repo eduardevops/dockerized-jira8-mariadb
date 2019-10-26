@@ -48,6 +48,14 @@ For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.
 └── docker-entrypoint.sh
 ```
 
+### Config Folder
+| File                        | Description                                                                                   |
+| :-------------------------- |:--------------------------------------------------------------------------------------------- |
+| apache-reverse-proxy.conf   | Basic reverse proxy config file for apache (With Letsencrypt certificates)                    |
+| nginx-reverse-proxy.conf    | Basic reverse proxy config file for nginx  (With Letsencrypt certificates)                    |
+| httpd.conf                  | Default httpd.conf for apache, just to avoid "Could not reliably determine ..." warning message   |
+
+
 #### Rename
 All names can be, and, in most cases, should be changed.
 
