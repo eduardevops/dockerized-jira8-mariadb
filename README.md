@@ -2,6 +2,7 @@
 
 <!-- ## Dockerized JIRA v8.5 and MariaDB v10.4 -->
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/jira8-mariadb" style="max-width:100%;"> <!-- <img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/jira8-mariadb/latest.svg"  style="max-width:100%;"> --> <a href="https://www.gnu.org/licenses/gpl-3.0/"> <img alt="Licenses" src="https://img.shields.io/badge/License-GPLv3-blue.svg" style="max-width:100%;"> </a>
+<img alt="Build Status" src="https://img.shields.io/docker/cloud/build/eduardevops/jira8-mariadb" style="max-width:100%;">
 -----
 ![Logo](./assets/logo.jpg)
 -----
@@ -13,7 +14,7 @@ For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.
 ## Table of contents
 * [Versions](#Versions)
 * [First things first](#First-things-first)
-* [ToDo](#ToDo)
+* [Rename Everything](#Rename-Everything)
 * [Timeout](#Timeout)
 * [Project Tree](#Project-Tree)
 * [How To Use](#How-To-Use)
@@ -26,7 +27,7 @@ For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.
 #### First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
-#### ToDo
+#### First things first
 All names can be, and, in most cases, should be changed.
 
 #### Timeout
