@@ -10,6 +10,7 @@
 * [Versions](#Versions)
 * [Build With](#Build-With)
 * [Project Tree](#Project-Tree)
+* [Config Folder](#Config-Folder)
 * [Rename](#Rename)
 * [Timeout](#Timeout)
 * [HowTo](#HowTo)
@@ -54,7 +55,6 @@ For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.
 | apache-reverse-proxy.conf   | Basic reverse proxy config file for apache (With Letsencrypt certificates)                    |
 | nginx-reverse-proxy.conf    | Basic reverse proxy config file for nginx  (With Letsencrypt certificates)                    |
 | httpd.conf                  | Apache conf with slight change, just to avoid "Could not reliably determine ..." message      |
-
 
 #### Rename
 All names can be, and, in most cases, should be changed.
