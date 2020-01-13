@@ -20,7 +20,7 @@ You may use his project if you prefer PostgreSQL.
 For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.com/eduardevops/dockerized-jira8-mysql)
 
 #### Versions
-*	JIRA v8.6.0
+*	JIRA v8.6.1
 *	MariaDB v10.4.11
 
 #### Build With
