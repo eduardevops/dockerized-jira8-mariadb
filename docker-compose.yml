@@ -16,7 +16,7 @@ services:
       - jira-db
   jira-db:
     restart: always
-    image: mariadb:10.4
+    image: mariadb:10.5
     container_name: jira-db
     env_file:
       - .env.db

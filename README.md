@@ -20,7 +20,7 @@ For JIRA with MySQL use the following project ![JIRA with MySQL](https://github.
 
 #### Versions
 *	JIRA v8.7.1
-*	MariaDB v10.4.12
+*	MariaDB v10.5.1
 
 #### Build With
 *	[Docker](https://www.docker.com/)
