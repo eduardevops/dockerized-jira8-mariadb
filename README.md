@@ -1,4 +1,4 @@
-### Run JIRA with MariaDB inside Docker container
+### Dockerized Jira with MariaDB
 
 ![Logo](./assets/logo.jpg)
 
