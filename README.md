@@ -19,7 +19,7 @@ For Jira with MySQL use the following project ![Jira with MySQL](https://github.
 For Jira with PostgreSQL use the following project ![Jira with PostgreSQL](https://github.com/eduardevops/dockerized-jira8-postgresql)
 
 ### Versions
-*	Jira v8.8.0
+*	Jira v8.8.1
 *	MariaDB v10.5.1
 * OpenJDK v11.0.6/v8.0.212
 
