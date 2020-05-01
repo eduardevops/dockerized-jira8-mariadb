@@ -17,7 +17,6 @@ This is a fork of ![Martin Aksel Jensen's](https://github.com/cptactionhank) pro
 For Jira with MySQL use the following project ![Jira with MySQL](https://github.com/eduardevops/dockerized-jira8-mysql) <br>
 For Jira with PostgreSQL use the following project ![Jira with PostgreSQL](https://github.com/eduardevops/dockerized-jira8-postgresql)
 
-
 ### Prerequisites
 *	[Docker](https://www.docker.com/)
 *	[Docker Compose](https://docs.docker.com/compose/install/)
