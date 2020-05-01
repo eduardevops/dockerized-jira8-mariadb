@@ -6,7 +6,6 @@
 <img alt="Image Size" src="https://img.shields.io/docker/image-size/eduardevops/jira8-mariadb" style="max-width:100%;"> <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/jira8-mariadb" style="max-width:100%;"> <img alt="Build Status" src="https://img.shields.io/docker/cloud/build/eduardevops/jira8-mariadb" style="max-width:100%;"> <img alt="Licenses" src="https://img.shields.io/badge/License-GPLv3-blue.svg" style="max-width:100%;">
 
 ### Table of contents
-* [Versions](#Versions)
 * [Prerequisites](#Prerequisites)
 * [Project Tree](#Project-Tree)
 * [Backup Folder](#Backup-Folder)
@@ -18,10 +17,6 @@ This is a fork of ![Martin Aksel Jensen's](https://github.com/cptactionhank) pro
 For Jira with MySQL use the following project ![Jira with MySQL](https://github.com/eduardevops/dockerized-jira8-mysql) <br>
 For Jira with PostgreSQL use the following project ![Jira with PostgreSQL](https://github.com/eduardevops/dockerized-jira8-postgresql)
 
-### Versions
-*	Jira v8.8.1
-*	MariaDB v10.5.1
-* OpenJDK v11.0.6/v8.0.212
 
 ### Prerequisites
 *	[Docker](https://www.docker.com/)
@@ -29,7 +24,6 @@ For Jira with PostgreSQL use the following project ![Jira with PostgreSQL](https
 ------
 
 ### Project Tree
-
 ```less
 ├── .env.db
 ├── .env.jira
@@ -73,9 +67,4 @@ Make docker-entrypoint.sh file executable for ```other``` and run the composer
 ```less
 chmod o+x docker-entrypoint.sh
 docker-compose up -d
-```
-
-Check logs in real-time
-```less
-docker-compose logs -f
 ```
